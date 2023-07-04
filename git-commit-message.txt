@@ -1,0 +1,32 @@
+我想要的 commit 規則的示範如下
+```
+✨ Feat: update images
+
+1. update images 
+2. update portal_cdn_physical_path.json in prod, uat,sit, and, SealAPI
+
+SP-2227
+```
+
+其中 SP-2227 是 Jira 單號 我會在每次請你生產 commit message 時提供
+若沒有提供也是沒問題的
+
+然後這是我不同的 title 想搭配不同的 gitmoji
+const typeToGitmoji = {
+    Feat: "✨",
+    Fix: "🚑",
+    Docs: "📝",
+    Style: "💄",
+    Refactor: "♻️",
+    Test: "✅",
+    Chore: "🔧",
+  };
+若 title 為 Feat 時就會顯示 "✨ Feat: (title content)"
+
+並請使用英文完成 commit message 的所有內容
+
+若有使用到 雙引號 (") 的部分全部幫我改成使用 單引號(')
+
+以上的規則請你記得
+
+Please write in English language.
